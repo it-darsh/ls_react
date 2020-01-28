@@ -2,13 +2,13 @@ import React from 'react';
 
 //---функциональный компонент в декларативном стиле
 // function Button(props) {
-//   return (
-//     <button className="App-button" id={props.id}>{props.text}</button>
-//   );
+//     return (
+//         <button className="App-button" id={props.id} onClick={props.myClick}>{props.text}</button>
+//     );
 // }
 
 //---функциональный компонент в сокращенном стрелочном стиле
-const Button = props => <button className="App-button" id={props.id}>{props.text}</button>
+const Button = props => <button className="App-button" id={props.id} onClick={props.myClick}>{props.text} </button>
 
 //---функциональный компонент в стрелочном стиле
 // const Button = props => {
